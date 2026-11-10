@@ -196,10 +196,10 @@ const HQ = (()=>{ const b = paths.al.getBBox(); return [b.x + b.width*.74, b.y +
   const [x,y] = HQ, g = document.createElementNS(ns,"g"); g.setAttribute("class","hq");
   const lx = x + 22, ly = y + 30;
   g.innerHTML = `<line class="hq-line" x1="${x}" y1="${y}" x2="${lx}" y2="${ly-2}"/>
-    <g class="hq-tag" transform="translate(${lx} ${ly})"><rect x="0" y="-2" width="96" height="44" rx="8"/><text class="t1" x="11" y="14">SEDE</text><text class="t2" x="11" y="33">Maceió · AL</text></g>
+    <g class="hq-tag" transform="translate(${lx} ${ly})"><rect x="0" y="-2" width="96" height="44" rx="8"/><text class="t1" x="11" y="14">SEDE</text><text class="t2" x="11" y="33">Alagoas</text></g>
     <circle class="hq-pulse" cx="${x}" cy="${y}" r="7"/><circle class="hq-pulse d2" cx="${x}" cy="${y}" r="7"/><circle class="hq-dot" cx="${x}" cy="${y}" r="7"/>`;
   svg.appendChild(g);
-  paths.al.querySelector("title").textContent = "Alagoas — sede da Brumus em Maceió";
+  paths.al.querySelector("title").textContent = "Alagoas — sede da Brumus";
 })();
 // Checks verdes saindo do mapa
 (function(){
