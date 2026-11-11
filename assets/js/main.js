@@ -262,7 +262,7 @@ document.getElementById("lead-form").addEventListener("submit", e=>{
     return;
   }
   const uf = fuf.options[fuf.selectedIndex].text;
-  const txt = `Olá, Brumus! Sou ${nome} (${uf}). Tenho interesse em: ${$("f-svc").value}.` + ($("f-msg").value.trim() ? `\n\n${$("f-msg").value.trim()}` : "") + `\n\nMeu WhatsApp: ${tel}`;
+  const txt = `Olá, Brumus! Vim pelo site. Sou ${nome} (${uf}). Tenho interesse em: ${$("f-svc").value}.` + ($("f-msg").value.trim() ? `\n\n${$("f-msg").value.trim()}` : "") + `\n\nMeu WhatsApp: ${tel}`;
   const url = "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(txt);
   ok.hidden = false;
   ok.innerHTML = "";
