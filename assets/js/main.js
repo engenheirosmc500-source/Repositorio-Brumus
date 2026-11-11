@@ -1,6 +1,6 @@
 /* Brumus Agência — scripts do site */
 // >>> TROQUE AQUI pelo WhatsApp da Brumus: 55 + DDD + número, só dígitos (ex.: 5582999998888)
-const WHATSAPP = "5500000000000";
+const WHATSAPP = "558298032781";
 const MAP = window.BRAZIL_MAP;
 const INFO = {
  ac:["Rio Branco","Norte"],al:["Maceió","Nordeste"],ap:["Macapá","Norte"],am:["Manaus","Norte"],ba:["Salvador","Nordeste"],ce:["Fortaleza","Nordeste"],
